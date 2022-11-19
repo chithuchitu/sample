@@ -2,7 +2,7 @@ package com.eight.co;
 
 public class String_Methods {
 	public static void main(String[] args) {
-		String a ="Welcome to Java";
+		String a ="Welcome to Java ";
 		int b = a.length();
 		System.out.println(b);
 		String a1="Welcome to java";
@@ -20,7 +20,11 @@ public class String_Methods {
 	    System.out.println(h);
 	    boolean i = a.contains("come to");
 	    System.out.println(i);
-	    
+	    boolean j = a.endsWith("Java");
+	    System.out.println(j);
+	    String add = "Continue Practical session";
+	     String concat = a.concat(add);
+	     System.out.println(concat);
 	}
 
 }
