@@ -10,16 +10,10 @@ public class String_Methods {
 	    System.out.println(c);
 	    boolean d = a.equalsIgnoreCase(a1);
 	    System.out.println(d);
-	    String e = a.toUpperCase();
-	    System.out.println(e);
-	    String f = a.toLowerCase();
-	    System.out.println(f);
-	    boolean g = a.startsWith("Wel");
-	    System.out.println(g);
-	    boolean h = a.endsWith(" to Java");
-	    System.out.println(h);
-	    boolean i = a.contains("come to");
-	    System.out.println(i);
+	    String  jo = "Git push  b to a success";
+	    System.out.println(jo);
+	   
+	    
 	    
 	}
 
